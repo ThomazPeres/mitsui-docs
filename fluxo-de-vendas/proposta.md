@@ -220,7 +220,7 @@ Retorna todo o contrato e o método de pagamento utilizado.
 >
 > **Pessoa Jurídica e Física**.
 
-> **insured-address-State:** Estado do segurado.
+> **insured-address-state:** Estado do segurado.
 >
 > **Pessoa Jurídica e Física.**
 
@@ -365,13 +365,72 @@ Todas perguntas de inspeção são obrigatórias, exceto para o número de telef
 
 ### Métodos de pagamento
 
-> **payment-method-id:** Identificador do método de pagamento selecionado.
+> **payment-method-id:** Identificador do método de pagamento selecionado.\
+> \
+> <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
 
-> **payment-installment-code:** Identificador da parcela selecionada.
+> **payment-installment-code:** Identificador da parcela selecionada.\
+> \
+> <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
 
-> **:** Nome no cartão de crédito.
+> **payment-day:** Data de vencimento das proximas parcelas (for 2 parcelas ou mais).\
+> \
+> <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
+
+> **payment-payer-address-zipcode:** CEP do pagante.
 >
-> <mark style="color:yellow;">Para Boleto + débito.</mark>
+> \
+> <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
+
+> **payment-payer-address-street:** Rua do segurado.
+>
+>
+>
+> <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
+
+> **payment-payer-number:** Número do endereço do segurado.
+>
+>
+>
+> <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
+
+> **payment-payer-complement:** Complemento do segurado (**opcional**).
+>
+>
+>
+> <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
+
+> **payment-payer-address-complement-type:** Tipo de complemento do segurado (**opcional**).
+>
+> \
+> <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
+
+> **payment-payer-address-neighborhood:** Bairro do segurado.
+>
+> \
+> <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
+
+> **payment-payer-address-city:** Cidade do segurado.
+>
+> \
+> <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
+
+> **payment-payer-address-state:** Estado do segurado.
+>
+> \
+> <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
+
+> **payment-bank-code:** Banco.
+>
+> <mark style="color:yellow;">Para Boleto + débito, débito automático.</mark>
+
+> **payment-bank-branch:** Agência do banco.
+>
+> <mark style="color:yellow;">Para Boleto + débito, débito automático.</mark>
+
+> **paymentn-bank-account:** Conta com dígito.
+>
+> <mark style="color:yellow;">Para Boleto + débito, débito automático.</mark>
 
 > **payment-card-holder-name:** Nome no cartão de crédito.
 >
