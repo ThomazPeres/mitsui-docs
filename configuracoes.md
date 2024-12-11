@@ -5,7 +5,7 @@ description: Ambientes e autenticação/autorização
 # Configurações
 
 {% hint style="warning" %}
-A URL de cada recurso vai conter o parametro **\{{url\_ambiente\}}** como prefixo, que deve ser substituido de acordo com o ambiente para o qual serão feitas as requisições.
+A URL de cada recurso vai conter o parametro **{URL}** como prefixo, que deve ser substituido de acordo com o ambiente para o qual serão feitas as requisições.
 
 
 
@@ -45,11 +45,13 @@ username : { Username }
 
 
 
-
-
 <mark style="color:green;">`POST`</mark> {**URL**}/auth
 
-Return bearer token &#x20;
+Retorna um bearer token.
+
+{% hint style="info" %}
+O token tem duração de 3 minutos.
+{% endhint %}
 
 **Headers**
 

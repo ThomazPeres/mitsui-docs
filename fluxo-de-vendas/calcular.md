@@ -469,6 +469,12 @@
 
 > **CalculationSettings:** Configurações básicas para cálculo
 
+> **commission-percentage:** Comissão.
+
+> **discount-percentage:** Desconto.
+
+> **increase-percentage:** Agravo.
+
 
 
 {% hint style="info" %}

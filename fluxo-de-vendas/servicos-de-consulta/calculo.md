@@ -276,7 +276,7 @@ Zipcode          = CEP selecionado
 
 ## Buscar perfil de risco
 
-<mark style="color:green;">`GET`</mark> {**URL**}/profile/contract/{contractId}/item/{itemId}
+<mark style="color:green;">`GET`</mark> {**URL**}/profile/{productCode}/{categoryId}
 
 **Headers**
 

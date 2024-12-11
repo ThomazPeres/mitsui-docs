@@ -9,3 +9,5 @@
   * [Calcular](fluxo-de-vendas/calcular.md)
   * [Proposta](fluxo-de-vendas/proposta.md)
   * [Transmissão](fluxo-de-vendas/transmissao.md)
+  * [Cancelar proposta](fluxo-de-vendas/cancelar-proposta.md)
+* [Carta de cotação e proposta](carta-de-cotacao-e-proposta.md)
