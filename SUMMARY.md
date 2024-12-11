@@ -2,6 +2,7 @@
 
 * [Sumário](README.md)
 * [Configurações](configuracoes.md)
+* [Rate Limits](rate-limits.md)
 * [Fluxo de vendas](fluxo-de-vendas/README.md)
   * [Serviços de consulta](fluxo-de-vendas/servicos-de-consulta/README.md)
     * [Proposta](fluxo-de-vendas/servicos-de-consulta/proposta.md)
