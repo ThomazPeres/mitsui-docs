@@ -420,6 +420,88 @@ Todas perguntas de inspeção são obrigatórias, exceto para o número de telef
 > \
 > <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
 
+> **payment-holder-name:** Nome do titular da conta.
+>
+> \
+> <mark style="color:yellow;">Para Boleto + débito, débito automático e cartão de crédito.</mark>
+
+> **payment-person-type:** Tipo de pessoa.
+>
+>
+>
+> Opções:
+>
+> ```
+>   {
+>     "label": "Pessoa Física",
+>     "value": "F"
+>   },
+>   {
+>     "label": "Pessoa Jurídica",
+>     "value": "J"
+>   }
+> ```
+>
+> \
+> <mark style="color:yellow;">Para Boleto + débito, débito automático e cartão de crédito.</mark>
+
+> **payment-holder-identity:** CPF/CNPJ do titular.
+>
+> \
+> <mark style="color:yellow;">Para Boleto + débito, débito automático e cartão de crédito.</mark>
+
+> **payment-degree-of-kinship:** Grau de parentesco.
+>
+>
+>
+> **Opções:**
+>
+> ```
+>   {
+>     "value": "G",
+>     "label": "Grupo",
+>     "type": "J"
+>   },
+>   {
+>     "value": "O",
+>     "label": "Outros",
+>     "type": "J"
+>   },
+>   {
+>     "value": "P",
+>     "label": "Pai",
+>     "type": "F"
+>   },
+>   {
+>     "value": "M",
+>     "label": "Mãe",
+>     "type": "F"
+>   },
+>   {
+>     "value": "F",
+>     "label": "Filho(a)",
+>     "type": "F"
+>   },
+>   {
+>     "value": "I",
+>     "label": "Irmãos",
+>     "type": "F"
+>   },
+>   {
+>     "value": "C",
+>     "label": "Cônjuge",
+>     "type": "F"
+>   },
+>   {
+>     "value": "O",
+>     "label": "Outros",
+>     "type": "F"
+>   }
+> ```
+>
+> \
+> <mark style="color:yellow;">Para Boleto + débito, débito automático e cartão de crédito.</mark>
+
 > **payment-bank-code:** Banco.
 >
 > <mark style="color:yellow;">Para Boleto + débito, débito automático.</mark>

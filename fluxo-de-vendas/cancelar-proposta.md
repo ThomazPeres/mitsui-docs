@@ -2,7 +2,7 @@
 
 ## Cancelar Proposta&#x20;
 
-Pode ser realizado após a transmissão e&#x20;
+Pode ser realizado após a transmissão.
 
 <mark style="color:yellow;">`POST`</mark>  {**URL**}/contract/{contractId}/proposal/{proposalId}/cancel
 
@@ -19,6 +19,6 @@ Pode ser realizado após a transmissão e&#x20;
 
 {% tabs %}
 {% tab title="200" %}
-Retorna um base64 para gerar o PDF
+Retorna a cotação para o Status de Proposta Iniciada
 {% endtab %}
 {% endtabs %}
