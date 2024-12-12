@@ -33,6 +33,10 @@
     },
     "fields": [
         {
+            "CODE": "insurance-type",
+            "VALUE": "new"
+        },
+        {
             "CODE": "insured-identity",
             "VALUE": "47196777700"
         },
@@ -475,7 +479,31 @@
 
 > **increase-percentage:** Agravo.
 
+> **insurance-type:** Novo seguro ou renovação congenere.
+>
+> \
+> Opções:
+>
+> ```
+> {
+>   "label": "Seguro novo",
+>   "value": "new"
+> },
+> {
+>   "label": "Renovação congênere",
+>   "value": "congener-renewal"
+> }
+> ```
 
+> **insurance-company:** Seguradora da apólice anterior, as seguradoras podem ser pesquisas neste [endpoint](servicos-de-consulta/calculo.md#buscar-seguradoras).
+>
+> \
+> <mark style="color:yellow;">Deve ser enviado para renovações congêneres.</mark>
+
+> **policy-number:** Número da apólice anterior.
+>
+> \
+> <mark style="color:yellow;">Deve ser enviado para renovações congêneres</mark>
 
 {% hint style="info" %}
 Fields é um array de objetos.

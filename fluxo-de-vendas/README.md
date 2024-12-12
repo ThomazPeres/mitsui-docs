@@ -4,7 +4,7 @@ description: Realiza o processo de salvamento e cálculo do contrato.
 
 # Fluxo de vendas
 
-**Serviços de consulta:**
+[**Serviços de consulta**](servicos-de-consulta/)**:**
 
 * Serviços necessários para realização de cálculo e proposta.
 
@@ -12,10 +12,10 @@ description: Realiza o processo de salvamento e cálculo do contrato.
 
 * Realiza o processo de salvamento e cálculo do contrato.
 
-**Criar proposta:**
+[**Criar proposta**](proposta.md)**:**
 
 * Realiza a geração de proposta.
 
-**Transmissão:**
+[**Transmissão**](transmissao.md)**:**
 
 * Realiza a solicitação de transmissão da proposta.
