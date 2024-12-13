@@ -12,3 +12,4 @@
   * [Transmissão](fluxo-de-vendas/transmissao.md)
   * [Cancelar proposta](fluxo-de-vendas/cancelar-proposta.md)
 * [Carta de cotação e proposta](carta-de-cotacao-e-proposta.md)
+* [Consultas](consultas.md)
