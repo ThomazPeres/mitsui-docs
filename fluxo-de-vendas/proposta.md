@@ -2,7 +2,7 @@
 
 ## Gerar proposta
 
-<mark style="color:green;">`POST`</mark> {**URL**}/calculate
+<mark style="color:green;">`POST`</mark> {**URL**}/proposal
 
 **Headers**
 
@@ -226,8 +226,6 @@ Retorna todo o contrato e o método de pagamento utilizado.
 
 > **insured-document-type:** Tipo do documento do segurado.
 >
->
->
 > **Opções:**
 >
 > ```json
@@ -361,8 +359,6 @@ Todas perguntas de inspeção são obrigatórias, exceto para o número de telef
 >
 > **Pessoa Jurídica e Física.**
 
-
-
 ### Métodos de pagamento
 
 > **payment-method-id:** Identificador do método de pagamento selecionado.\
@@ -384,19 +380,13 @@ Todas perguntas de inspeção são obrigatórias, exceto para o número de telef
 
 > **payment-payer-address-street:** Rua do segurado.
 >
->
->
 > <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
 
 > **payment-payer-number:** Número do endereço do segurado.
 >
->
->
 > <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
 
 > **payment-payer-complement:** Complemento do segurado (**opcional**).
->
->
 >
 > <mark style="color:yellow;">**Todos métodos de pagamento.**</mark>
 
@@ -427,8 +417,6 @@ Todas perguntas de inspeção são obrigatórias, exceto para o número de telef
 
 > **payment-person-type:** Tipo de pessoa.
 >
->
->
 > Opções:
 >
 > ```
@@ -451,8 +439,6 @@ Todas perguntas de inspeção são obrigatórias, exceto para o número de telef
 > <mark style="color:yellow;">Para Boleto + débito, débito automático e cartão de crédito.</mark>
 
 > **payment-degree-of-kinship:** Grau de parentesco.
->
->
 >
 > **Opções:**
 >
@@ -566,6 +552,6 @@ As corretoras podem ser buscadas neste endpoint: [**Buscar corretora**](servicos
 
 > **brokerageId:** Identificador da corretora selecionada.
 
-> **brokerageName:**  Nome da corretora selecionada.
+> **brokerageName:** Nome da corretora selecionada.
 
 > **percentage:** Porcentagem da co-corretagem.
