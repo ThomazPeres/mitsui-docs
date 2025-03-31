@@ -495,16 +495,6 @@
 > }
 > ```
 
-> **insurance-company:** Seguradora da apólice anterior, as seguradoras podem ser pesquisas neste [endpoint](servicos-de-consulta/calculo.md#buscar-seguradoras).
->
-> \
-> <mark style="color:yellow;">Deve ser enviado para renovações congêneres.</mark>
-
-> **policy-number:** Número da apólice anterior (em caso de renovação congênere). E apólice a ser renovada em renovação mitsui.
->
-> \
-> <mark style="color:yellow;">Deve ser enviado para renovações congêneres e renovações mitsui.</mark>
-
 {% hint style="info" %}
 Fields é um array de objetos.
 
@@ -514,6 +504,64 @@ Sendo **Code** e **Value** sempre obrigátorios.\
 \
 **Value** sempre será tipo **String**
 {% endhint %}
+
+***
+
+### Campos adicionais para Renovação congênere e Renovação mitsui.
+
+<details>
+
+<summary>Campos adicionais</summary>
+
+> **insurance-company:** Seguradora da apólice anterior, as seguradoras podem ser pesquisas neste [endpoint](servicos-de-consulta/calculo.md#buscar-seguradoras).
+
+> **policy-number:** Número da apólice anterior (em caso de renovação congênere). E apólice a ser renovada em renovação mitsui.
+
+> **has-claim:** O item possui sinistro (❗propriedade texto com true ou false)
+
+> **claim-percentage:** Sinistralidade em porcentagem (%).\
+> ❗Envio obrigátorio caso tenha sinistralidade.\
+>
+>
+> Valores de 0 a 1000%.
+
+> **experience:** Experiência. (Ambos para sem ou com sinistro).\
+> \
+> Opções:
+>
+> {% code overflow="wrap" fullWidth="false" %}
+> ```json
+> {
+>   "label": "1 ano",
+>   "order": 1,
+>   "value": "1"
+> },
+> {
+>   "label": "2 anos",
+>   "order": 2,
+>   "value": "2"
+> },
+> {
+>   "label": "3 anos",
+>   "order": 3,
+>   "value": "3"
+> },
+> {
+>   "label": "4 anos",
+>   "order": 4,
+>   "value": "4"
+> },
+> {
+>   "label": "5 anos ou mais",
+>   "order": 5,
+>   "value": "5"
+> }
+> ```
+> {% endcode %}
+
+</details>
+
+***
 
 > **insured-identity:** CPF/CNPJ do segurado.
 
@@ -583,7 +631,7 @@ Sendo **Code** e **Value** sempre obrigátorios.\
 >
 > **itemId:** Item que deseja adicionar a resposta.\
 > \
-> Opções:\\
+> Opções:
 >
 > ```json
 > {
@@ -603,7 +651,7 @@ Sendo **Code** e **Value** sempre obrigátorios.\
 > }
 > ```
 >
-> \\
+>
 >
 > **label:** Descrição do tipo do bem selecionado.
 
