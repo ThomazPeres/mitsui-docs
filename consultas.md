@@ -63,7 +63,7 @@ Denied = Proposta recusada,
 Emitted = Apólice emitida,
 Canceled = Apólice cancelada,
 Expired = Cotação expirada,
-
+ToRenew = A Renovar,
 ```
 {% endhint %}
 
