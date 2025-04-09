@@ -21,6 +21,10 @@
 Retorna todo o contrato.
 ```
 {% endtab %}
+
+{% tab title="204" %}
+Não deu erro, porém não foi encontrado nada.
+{% endtab %}
 {% endtabs %}
 
 
@@ -41,19 +45,41 @@ size = Número de contratos por página
 
 **Body**
 
+{% code overflow="wrap" %}
 ```json
 {
-    "status": [], 
+    "status": [],       // Array de string.
     "product": "18001", // Código do Produto
-    "searchText": "" // Pesquisar por nome, CPF/CNPJ, número do contrato
+    "searchText": "",   // Pesquisar por nome, CPF/CNPJ, número do contrato
+    "isRenewal": false  // Se quiser pesquisar apenas as renovações
 }
 ```
+{% endcode %}
 
-{% hint style="info" %}
-```json
-Status disponiveis para consulta 
+{% hint style="success" %}
+Os status para **Renovação Mitsui** são os mesmo que uma cotação nova. \
+\
+Vai listar tanto as **cotações novas/congêneres** como **renovações mitsui**, exemplo:
 
+```
+"Status = [ "Quoted" ]",
+"isRenewal" = false
+```
 
+\
+\
+Para listar apenas as renovações, ficaria como:
+
+```
+"Status = [ "Quoted" ]",
+"isRenewal" = true
+```
+{% endhint %}
+
+{% hint style="warning" %}
+**Status disponiveis para consulta**&#x20;
+
+```
 Draft = Iniciada,
 Quoted = Cotada,
 Proposal = Proposta iniciada,
