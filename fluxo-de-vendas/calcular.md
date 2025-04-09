@@ -33,7 +33,7 @@
     },
     "fields": [
         {
-            "CODE": "insurance-type",
+            "CODE": "quotation-type",
             "VALUE": "new"
         },
         {
@@ -460,11 +460,7 @@
 {% endtab %}
 {% endtabs %}
 
-
-
-## Definindo campos de envio
-
-
+## Definindo campos de envio.
 
 > **Product Code:** Código do produto
 >
@@ -479,7 +475,7 @@
 
 > **increase-percentage:** Agravo.
 
-> **insurance-type:** Novo seguro ou renovação congenere.
+> **quotation-type:** Novo seguro ou renovação congenere.
 >
 > \
 > Opções:
@@ -492,34 +488,80 @@
 > {
 >   "label": "Renovação congênere",
 >   "value": "congener-renewal"
+> },
+> {
+>   "label": "Renovação mitsui",
+>   "value": "renewal"
 > }
 > ```
-
-> **insurance-company:** Seguradora da apólice anterior, as seguradoras podem ser pesquisas neste [endpoint](servicos-de-consulta/calculo.md#buscar-seguradoras).
->
-> \
-> <mark style="color:yellow;">Deve ser enviado para renovações congêneres.</mark>
-
-> **policy-number:** Número da apólice anterior.
->
-> \
-> <mark style="color:yellow;">Deve ser enviado para renovações congêneres</mark>
 
 {% hint style="info" %}
 Fields é um array de objetos.
 
-
-
 Os objetos podem conter **Code, Value, ItemId** e **Label.**
-
-
 
 Sendo **Code** e **Value** sempre obrigátorios.\
 \
 **Value** sempre será tipo **String**
 {% endhint %}
 
+***
 
+### Campos adicionais para Renovação congênere e Renovação mitsui.
+
+<details>
+
+<summary>Campos adicionais</summary>
+
+> **insurance-company:** Seguradora da apólice anterior, as seguradoras podem ser pesquisas neste [endpoint](servicos-de-consulta/calculo.md#buscar-seguradoras).
+
+> **policy-number:** Número da apólice anterior (em caso de renovação congênere). E apólice a ser renovada em renovação mitsui.
+
+> **has-claim:** O item possui sinistro (❗propriedade texto com true ou false)
+
+> **claim-percentage:** Sinistralidade em porcentagem (%).\
+> ❗Envio obrigátorio caso tenha sinistralidade.\
+>
+>
+> Valores de 0 a 1000%.
+
+> **experience:** Experiência. (Ambos para sem ou com sinistro).\
+> \
+> Opções:
+>
+> {% code overflow="wrap" fullWidth="false" %}
+> ```json
+> {
+>   "label": "1 ano",
+>   "order": 1,
+>   "value": "1"
+> },
+> {
+>   "label": "2 anos",
+>   "order": 2,
+>   "value": "2"
+> },
+> {
+>   "label": "3 anos",
+>   "order": 3,
+>   "value": "3"
+> },
+> {
+>   "label": "4 anos",
+>   "order": 4,
+>   "value": "4"
+> },
+> {
+>   "label": "5 anos ou mais",
+>   "order": 5,
+>   "value": "5"
+> }
+> ```
+> {% endcode %}
+
+</details>
+
+***
 
 > **insured-identity:** CPF/CNPJ do segurado.
 
@@ -589,8 +631,7 @@ Sendo **Code** e **Value** sempre obrigátorios.\
 >
 > **itemId:** Item que deseja adicionar a resposta.\
 > \
-> Opções:\
->
+> Opções:
 >
 > ```json
 > {
@@ -610,7 +651,6 @@ Sendo **Code** e **Value** sempre obrigátorios.\
 > }
 > ```
 >
-> \
 >
 >
 > **label:** Descrição do tipo do bem selecionado.
@@ -653,13 +693,10 @@ O que enviar no objeto de coverages:
 ```
 {% endcode %}
 
-
-
 {% hint style="warning" %}
 **As perguntas com códigos númericos, dependem da atividade selecionada anteriormente sendo necessário uma consulta neste endpoint:**[ **Perfil de Risco**](servicos-de-consulta/calculo.md#buscar-perfil-de-risco)**.**\
 \
-**Elas sempre devem ser respondidas no modelo:**\
-
+**Elas sempre devem ser respondidas no modelo:**\\
 
 ```json
 {
