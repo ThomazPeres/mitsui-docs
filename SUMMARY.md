@@ -11,5 +11,7 @@
   * [Proposta](fluxo-de-vendas/proposta.md)
   * [Transmissão](fluxo-de-vendas/transmissao.md)
   * [Cancelar proposta](fluxo-de-vendas/cancelar-proposta.md)
-* [Carta de cotação e proposta](carta-de-cotacao-e-proposta.md)
+* [Documentos](documentos/README.md)
+  * [Carta de cotação e proposta](documentos/carta-de-cotacao-e-proposta.md)
+  * [Boleto e pix](documentos/carta-de-cotacao-e-proposta-1.md)
 * [Consultas](consultas.md)

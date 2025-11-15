@@ -655,7 +655,7 @@ Sendo **Code** e **Value** sempre obrigátorios.\
 >
 > **label:** Descrição do tipo do bem selecionado.
 
-> **lost-profits:** Valor de lucros cessantes (**opcional**).
+> **lost-profits:** Valor de lucros cessantes (**opcional e a depender da atividade**).
 >
 > **itemId:** Item que deseja adicionar a resposta.
 
