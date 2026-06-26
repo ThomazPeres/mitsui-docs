@@ -243,7 +243,7 @@ Retorna todo o contrato e o método de pagamento utilizado.
 >
 > <mark style="color:yellow;">**Pessoa Física.**</mark>
 
-> **insured-emission-data:** Data de transmissão do documento.
+> **insured-emission-date:** Data de transmissão do documento.
 >
 > <mark style="color:yellow;">**Pessoa Física.**</mark>
 
