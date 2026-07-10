@@ -31,7 +31,7 @@ Não deu erro, porém não foi encontrado nada.
 
 ## Listar contratos
 
-<mark style="color:green;">`GET`</mark> {**URL**}/contracts?page={}\&size={}
+<mark style="color:green;">`POST`</mark> {**URL**}/contracts?page={}\&size={}
 
 **Query parameters**
 
