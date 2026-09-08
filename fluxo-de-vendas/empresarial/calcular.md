@@ -33,12 +33,12 @@
     },
     "fields": [
         {
-            "CODE": "quotation-type",
-            "VALUE": "new"
+            "code": "quotation-type",
+            "value": "new"
         },
         {
-            "CODE": "insured-identity",
-            "VALUE": "47196777700"
+            "code": "insured-identity",
+            "value": "47196777700"
         },
         {
             "code": "insured-name",
@@ -304,7 +304,7 @@
             "code": "21",
             "label": "Sim",
             "value": "1"
-        },
+        }
     ],
     "coverages": [
         {
@@ -383,22 +383,16 @@
                     "coverages": [
                         {
                             "id": "00028",
-                            "totalValue": 187.84,
-                            "netValue": 140.88,
-                            "mocked": false
+                            "totalValue": 187.84
                         },
                         {
                             "id": "00030",
-                            "totalValue": 2758.21,
-                            "netValue": 2068.66,
-                            "mocked": false
+                            "totalValue": 2758.21
                         },
                         {
                             "id": "01217",
                             "isEmptyPrize": true,
-                            "totalValue": 0.0,
-                            "netValue": 0.00,
-                            "mocked": false
+                            "totalValue": 0.0
                         }
                     ],
                     "totalValue": 3163.47,
@@ -414,22 +408,16 @@
                     "coverages": [
                         {
                             "id": "00028",
-                            "totalValue": 94.52,
-                            "netValue": 70.89,
-                            "mocked": false
+                            "totalValue": 94.52
                         },
                         {
                             "id": "00030",
-                            "totalValue": 2751.78,
-                            "netValue": 2063.84,
-                            "mocked": false
+                            "totalValue": 2751.78
                         },
                         {
                             "id": "01217",
                             "isEmptyPrize": true,
-                            "totalValue": 0.0,
-                            "netValue": 0.00,
-                            "mocked": false
+                            "totalValue": 0.0
                         }
                     ],
                     "totalValue": 3056.36,
