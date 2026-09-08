@@ -6,7 +6,10 @@ Serviços compartilhados entre todos os produtos.
 
 [Buscar produtos](calculo.md#buscar-produtos) e [Buscar seguradoras](calculo.md#buscar-seguradoras).
 
-As consultas de atividades, classe de construção, coberturas e perfil de risco dependem do produto: [Consultas do Empresarial](../empresarial/consultas.md).
+As consultas de atividades, coberturas e perfil de risco dependem do produto:
+
+* [Consultas do Empresarial](../empresarial/consultas.md)
+* [Consultas de Responsabilidade Civil](../responsabilidade-civil/consultas.md)
 
 ### Serviços de consulta para Proposta:
 

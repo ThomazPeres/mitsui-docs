@@ -123,6 +123,15 @@
 
 <mark style="color:green;">`GET`</mark>  {**URL**}/brokerage/product/{productName}?brokerage={nome da corretora}
 
+**Path parameters**
+
+{% code overflow="wrap" %}
+```json
+productName = Código do produto (businessproperty ou civilliability)
+brokerage   = Nome da corretora. Mínimo de 3 caracteres.
+```
+{% endcode %}
+
 **Headers**
 
 | Name                      | Value               |
