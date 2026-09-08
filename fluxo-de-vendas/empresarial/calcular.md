@@ -465,7 +465,7 @@
 > **Product Code:** Código do produto
 >
 > \
-> **Produtos disponiveis neste endpoint:** [Buscar Produto.](servicos-de-consulta/calculo.md#buscar-produtos)
+> **Produtos disponiveis neste endpoint:** [Buscar Produto.](../servicos-de-consulta/calculo.md#buscar-produtos)
 
 > **CalculationSettings:** Configurações básicas para cálculo
 
@@ -513,7 +513,7 @@ Sendo **Code** e **Value** sempre obrigátorios.\
 
 <summary>Campos adicionais</summary>
 
-> **insurance-company:** Seguradora da apólice anterior, as seguradoras podem ser pesquisas neste [endpoint](servicos-de-consulta/calculo.md#buscar-seguradoras).
+> **insurance-company:** Seguradora da apólice anterior, as seguradoras podem ser pesquisas neste [endpoint](../servicos-de-consulta/calculo.md#buscar-seguradoras).
 
 > **policy-number:** Número da apólice anterior (em caso de renovação congênere). E apólice a ser renovada em renovação mitsui.
 
@@ -603,7 +603,7 @@ Sendo **Code** e **Value** sempre obrigátorios.\
 >
 > **itemId:** Item que deseja adicionar a resposta.
 
-> **classification-id:** Código da atividade do item (as atividades podem ser consultadas neste [endpoint](servicos-de-consulta/calculo.md#buscar-atividades)).
+> **classification-id:** Código da atividade do item (as atividades podem ser consultadas neste [endpoint](consultas.md#buscar-atividades)).
 >
 > **itemId:** Item que deseja adicionar a resposta.
 
@@ -621,7 +621,7 @@ Sendo **Code** e **Value** sempre obrigátorios.\
 >
 > **itemId:** Item que deseja adicionar a resposta.
 
-> **category-id:** Classe de construção do item (pode ser consultado neste [endpoint](servicos-de-consulta/calculo.md#buscar-classe-de-construcao)).
+> **category-id:** Classe de construção do item (pode ser consultado neste [endpoint](consultas.md#buscar-classe-de-construcao)).
 >
 > **itemId:** Item que deseja adicionar a resposta.
 >
@@ -665,7 +665,7 @@ Sendo **Code** e **Value** sempre obrigátorios.\
 
 ### Coverages (Coberturas)
 
-Coberturas selecionadas por item, as coberturas disponiveis para contratação seguem disponiveis nesse endpoint: [Listas Coberturas](servicos-de-consulta/calculo.md#buscar-coberturas)
+Coberturas selecionadas por item, as coberturas disponiveis para contratação seguem disponiveis nesse endpoint: [Listas Coberturas](consultas.md#buscar-coberturas)
 
 **Coverages:** Array de objetos para adicionar coberturas aos itens.
 
@@ -694,7 +694,7 @@ O que enviar no objeto de coverages:
 {% endcode %}
 
 {% hint style="warning" %}
-**As perguntas com códigos númericos, dependem da atividade selecionada anteriormente sendo necessário uma consulta neste endpoint:**[ **Perfil de Risco**](servicos-de-consulta/calculo.md#buscar-perfil-de-risco)**.**\
+**As perguntas com códigos númericos, dependem da atividade selecionada anteriormente sendo necessário uma consulta neste endpoint:**[ **Perfil de Risco**](consultas.md#buscar-perfil-de-risco)**.**\
 \
 **Elas sempre devem ser respondidas no modelo:**\\
 

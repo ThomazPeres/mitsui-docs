@@ -6,13 +6,17 @@ description: Realiza o processo de salvamento e cálculo do contrato.
 
 [**Serviços de consulta**](servicos-de-consulta/)**:**
 
-* Serviços necessários para realização de cálculo e proposta.
+* Serviços compartilhados entre produtos: produtos, seguradoras, corretoras, CNAE, salários, profissões e métodos de pagamento.
 
-[**Calcular**](calcular.md)**:**
+[**Consultas do Empresarial**](empresarial/consultas.md)**:**
+
+* Atividades, classe de construção, coberturas e perfil de risco do item.
+
+[**Calcular**](empresarial/calcular.md)**:**
 
 * Realiza o processo de salvamento e cálculo do contrato.
 
-[**Criar proposta**](proposta.md)**:**
+[**Criar proposta**](empresarial/proposta.md)**:**
 
 * Realiza a geração de proposta.
 
