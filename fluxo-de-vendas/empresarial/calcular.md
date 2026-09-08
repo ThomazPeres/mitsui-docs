@@ -1,16 +1,14 @@
 # Calcular
 
+Campos do produto **Empresarial** (`businessproperty`).
+
+{% hint style="info" %}
+Endpoint, headers, envelope do body, criação e recálculo do contrato, formato da resposta e erros estão em [Calcular](../calcular.md).
+{% endhint %}
+
 ## Calcular
 
 <mark style="color:green;">`POST`</mark> {**URL**}/calculate
-
-**Headers**
-
-| Name                      | Value               |
-| ------------------------- | ------------------- |
-| ocp-apim-subscription-key | { Chave de acesso } |
-| Authorization             | `Bearer <token>`    |
-| username                  | { Username }        |
 
 **Body**
 
@@ -438,30 +436,20 @@
 }
 ```
 {% endtab %}
-
-{% tab title="401" %}
-```json
-{
-  "error": "Invalid request"
-}
-```
-{% endtab %}
 {% endtabs %}
+
+{% hint style="info" %}
+Retorno completo e catálogo de erros em [Resposta](../calcular.md#resposta) e [Erros](../calcular.md#erros).
+{% endhint %}
 
 ## Definindo campos de envio.
 
-> **Product Code:** Código do produto
+> **Product Code:** `businessproperty`.
 >
 > \
 > **Produtos disponiveis neste endpoint:** [Buscar Produto.](../servicos-de-consulta/calculo.md#buscar-produtos)
 
-> **CalculationSettings:** Configurações básicas para cálculo
-
-> **commission-percentage:** Comissão.
-
-> **discount-percentage:** Desconto.
-
-> **increase-percentage:** Agravo.
+> **CalculationSettings:** Comissão, desconto e agravo. Ver [CalculationSettings](../calcular.md#calculationsettings).
 
 > **quotation-type:** Novo seguro ou renovação congenere.
 >
@@ -484,13 +472,7 @@
 > ```
 
 {% hint style="info" %}
-Fields é um array de objetos.
-
-Os objetos podem conter **Code, Value, ItemId** e **Label.**
-
-Sendo **Code** e **Value** sempre obrigátorios.\
-\
-**Value** sempre será tipo **String**
+As regras de preenchimento de `fields` (obrigatoriedade, `label`, `itemId`, `clear` e o que acontece ao reenviar o cálculo) estão em [Regras de fields](../calcular.md#regras-de-fields).
 {% endhint %}
 
 ***

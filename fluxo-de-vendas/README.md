@@ -23,9 +23,9 @@ Cada produto tem suas próprias páginas de **Consultas**, **Calcular** e **Prop
 
 * Atividades, coberturas e perfil de risco, cujo formato depende do produto.
 
-**Calcular** ([Empresarial](empresarial/calcular.md) | [Responsabilidade Civil](responsabilidade-civil/calcular.md))**:**
+[**Calcular**](calcular.md)**:**
 
-* Realiza o processo de salvamento e cálculo do contrato.
+* Realiza o processo de salvamento e cálculo do contrato. Campos por produto: [Empresarial](empresarial/calcular.md) | [Responsabilidade Civil](responsabilidade-civil/calcular.md).
 
 **Proposta** ([Empresarial](empresarial/proposta.md) | [Responsabilidade Civil](responsabilidade-civil/proposta.md))**:**
 

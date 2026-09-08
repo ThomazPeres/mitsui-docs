@@ -7,6 +7,7 @@
   * [Serviços de consulta](fluxo-de-vendas/servicos-de-consulta/README.md)
     * [Cálculo](fluxo-de-vendas/servicos-de-consulta/calculo.md)
     * [Proposta](fluxo-de-vendas/servicos-de-consulta/proposta.md)
+  * [Calcular](fluxo-de-vendas/calcular.md)
   * [Empresarial](fluxo-de-vendas/empresarial/README.md)
     * [Consultas](fluxo-de-vendas/empresarial/consultas.md)
     * [Calcular](fluxo-de-vendas/empresarial/calcular.md)
