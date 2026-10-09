@@ -180,7 +180,7 @@ Retorna todo o contrato e o método de pagamento utilizado.
 
 ## Definindo campos de envio e opções.
 
-> **insured-cnae:** Código de cnae selecionado. Pode ser consultado neste [endpoint](servicos-de-consulta/proposta.md#buscar-atividades-e-cnae).
+> **insured-cnae:** Código de cnae selecionado. Pode ser consultado neste [endpoint](../servicos-de-consulta/proposta.md#buscar-atividades-e-cnae).
 >
 > <mark style="color:yellow;">**Pessoa Juridica.**</mark>
 
@@ -255,11 +255,11 @@ Retorna todo o contrato e o método de pagamento utilizado.
 >
 > <mark style="color:yellow;">**Pessoa Física.**</mark>
 
-> **insured-salary-range:** Faixa salarial do segurado. As respostas disponivesi podem ser consultadas neste [endpoint](servicos-de-consulta/proposta.md#buscar-salarios).
+> **insured-salary-range:** Faixa salarial do segurado. As respostas disponivesi podem ser consultadas neste [endpoint](../servicos-de-consulta/proposta.md#buscar-salarios).
 >
 > <mark style="color:yellow;">**Pessoa Física.**</mark>
 
-> **insured-profession:** Profissão do segurado. As respostas disponivesi podem ser consultadas neste [endpoint](servicos-de-consulta/proposta.md#buscar-profissoes).
+> **insured-profession:** Profissão do segurado. As respostas disponivesi podem ser consultadas neste [endpoint](../servicos-de-consulta/proposta.md#buscar-profissoes).
 >
 > <mark style="color:yellow;">**Pessoa Física.**</mark>
 
@@ -295,7 +295,7 @@ Retorna todo o contrato e o método de pagamento utilizado.
 >
 > **Pessoa Jurídica e Física.**
 
-> **tied-policy-company:** Seguradora da apólice. As corretoras podem ser pesquisadas no [**endpoint**](servicos-de-consulta/proposta.md#buscar-corretoras)
+> **tied-policy-company:** Seguradora da apólice. As corretoras podem ser pesquisadas no [**endpoint**](../servicos-de-consulta/proposta.md#buscar-corretoras)
 >
 > **itemId:** Item que deseja adicionar outras apólices relacionadas.
 >
@@ -547,7 +547,7 @@ Todas perguntas de inspeção são obrigatórias, exceto para o número de telef
 ### Co-corretagem (opcional)
 
 {% hint style="info" %}
-As corretoras podem ser buscadas neste endpoint: [**Buscar corretora**](servicos-de-consulta/proposta.md#buscar-corretoras)
+As corretoras podem ser buscadas neste endpoint: [**Buscar corretora**](../servicos-de-consulta/proposta.md#buscar-corretoras)
 {% endhint %}
 
 > **brokerageId:** Identificador da corretora selecionada.
