@@ -11,7 +11,7 @@ description: Seguro de Responsabilidade Civil (RC Geral e Transporte RCG)
 | Segurado         | Somente Pessoa Jurídica (CNPJ)                                                               |
 | Itens            | Item único (`itemId: "1"`), criado automaticamente. Sem endereço, sem classe de construção. |
 | Modalidades      | `1` = RC Geral, `2` = Transporte RCG (campo `modality`)                                      |
-| Plano            | `00005` = Responsabilidade Civil Geral (campo `plan-modality`, único valor)                  |
+| Plano            | `00005` = Residencial (campo `plan-modality`, único valor)                  |
 | Tipos de cotação | Seguro novo e renovação congênere. **Renovação Mitsui não é suportada.**                     |
 
 ## Ordem de chamadas
