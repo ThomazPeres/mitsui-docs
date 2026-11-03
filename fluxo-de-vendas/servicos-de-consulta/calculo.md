@@ -42,7 +42,7 @@
         ],
         "planModality": [
             {
-                "label": "Responsabilidade Civil Geral",
+                "label": "Residencial",
                 "value": "00005"
             }
         ]

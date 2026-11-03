@@ -38,7 +38,7 @@ Endpoint, headers, envelope do body, criação e recálculo do contrato, formato
         },
         {
             "code": "plan-modality",
-            "label": "Responsabilidade Civil Geral",
+            "label": "Residencial",
             "value": "00005"
         },
         {
@@ -208,7 +208,7 @@ Endpoint, headers, envelope do body, criação e recálculo do contrato, formato
         },
         {
             "code": "plan-modality",
-            "label": "Responsabilidade Civil Geral",
+            "label": "Residencial",
             "value": "00005"
         },
         {
@@ -436,7 +436,7 @@ Retorno completo e catálogo de erros em [Resposta](../calcular.md#resposta) e [
 >
 > ❗**Renovação Mitsui (`renewal`) não é suportada em Responsabilidade Civil.**
 
-> **plan-modality:** Plano. Único valor aceito: `00005` (Responsabilidade Civil Geral). Opcional, assumido por padrão.
+> **plan-modality:** Plano. Único valor aceito: `00005` (Residencial). Opcional, assumido por padrão.
 
 > **modality:** Modalidade. Valores obtidos em [Buscar produtos](../servicos-de-consulta/calculo.md#buscar-produtos).
 >
