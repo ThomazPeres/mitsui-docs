@@ -10,6 +10,8 @@ As consultas de atividades, coberturas e perfil de risco dependem do produto:
 
 * [Consultas do Empresarial](../empresarial/consultas.md)
 * [Consultas de Responsabilidade Civil](../responsabilidade-civil/consultas.md)
+* [Consultas do RC Obras](../rc-obras/consultas.md)
+* [Consultas do MS Construção](../ms-construcao/consultas.md)
 
 ### Serviços de consulta para Proposta:
 

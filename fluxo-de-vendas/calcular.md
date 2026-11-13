@@ -10,6 +10,8 @@ Os campos de cada produto estão em:
 
 * [Calcular — Empresarial](empresarial/calcular.md)
 * [Calcular — Responsabilidade Civil](responsabilidade-civil/calcular.md)
+* [Calcular — RC Obras](rc-obras/calcular.md)
+* [Calcular — MS Construção](ms-construcao/calcular.md)
 
 ## Endpoint
 

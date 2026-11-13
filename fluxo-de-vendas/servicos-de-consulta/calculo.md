@@ -46,6 +46,34 @@
                 "value": "00005"
             }
         ]
+    },
+    {
+        "id": "51007",
+        "name": "51007-RC Obras",
+        "code": "workscivilliability",
+        "modality": [
+            {
+                "label": "Apólice aberta",
+                "value": "3"
+            },
+            {
+                "label": "Apólice fechada",
+                "value": "4"
+            }
+        ],
+        "planModality": [
+            {
+                "label": "Responsabilidade Civil Geral",
+                "value": "00005"
+            }
+        ]
+    },
+    {
+        "id": "67006",
+        "name": "67006-MS Construção",
+        "code": "constructionworks",
+        "modality": null,
+        "planModality": null
     }
 ]
 ```
@@ -61,7 +89,11 @@
 {% hint style="info" %}
 Retorna apenas os produtos habilitados para a corretora autenticada.
 
-**modality** e **planModality** são preenchidos somente para **Responsabilidade Civil**. Use o `value` de `modality` nas consultas de [atividades](../responsabilidade-civil/consultas.md#buscar-atividades) e [coberturas](../responsabilidade-civil/consultas.md#buscar-coberturas) e no campo `modality` do [cálculo](../responsabilidade-civil/calcular.md).
+**modality** e **planModality** são preenchidos somente para **Responsabilidade Civil** e **RC Obras**. Use o `value` de `modality` nas consultas de atividades e coberturas e no campo `modality` do cálculo de cada produto: [Responsabilidade Civil](../responsabilidade-civil/calcular.md) | [RC Obras](../rc-obras/calcular.md).
+
+No **Empresarial** e no **MS Construção** os dois vêm `null`: no MS Construção a modalidade e o plano são únicos e o contrato já é criado com eles.
+
+Os `label` e o `name` vêm do cadastro do produto e podem variar. Use sempre o `value` e o `code`.
 {% endhint %}
 
 ## Buscar seguradoras

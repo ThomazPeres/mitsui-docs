@@ -29,5 +29,5 @@ A modalidade (`modality`) é definida no primeiro cálculo e **não pode ser alt
 {% endhint %}
 
 {% hint style="info" %}
-O produto **RC Obras** não está disponível nesta API.
+O **RC Obras** é um produto à parte, com `ProductCode` próprio. Consulte [RC Obras](../rc-obras/).
 {% endhint %}
